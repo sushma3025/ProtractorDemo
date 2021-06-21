@@ -8,7 +8,7 @@ describe('demo calculator tests', function () {
         homepage.enterSecondNumber('7');
         homepage.clickGo();
         homepage.verifyOutput('11');
-        browser.sleep(5000);
+        browser.sleep(3000);
 
     });
 
